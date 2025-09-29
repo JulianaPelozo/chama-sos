@@ -1,0 +1,61 @@
+:root {
+    --bg-color: #212529; /* Uma cor escura, similar ao fundo */
+    --card-bg-color: #2c313a; /* Uma cor um pouco mais clara para o card */
+    --text-color: #ffffff;
+    --highlight-color: #ffc107; /* A cor amarela do texto 'HOME' */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Estilização do cabeçalho */
+header {
+    padding: 1.5rem;
+}
+
+.home-link {
+    color: var(--highlight-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Estilização do conteúdo principal */
+.main-content {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: calc(100vh - 5rem); /* Subtrai o padding do header para ocupar o resto da tela */
+}
+
+/* Estilização do card */
+.card {
+    background-color: var(--card-bg-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Espaço entre os elementos do card */
+}
+
+.card-logo {
+    width: 100px;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #a0a0a0;
+    margin: 0;
+}
