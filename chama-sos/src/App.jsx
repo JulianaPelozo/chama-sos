@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import './App.css'; 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <main className="main-content">
         <div className="card">
           <img 
-            src="/.png" 
+            src="/caminho/para/sua/imagem.png" 
             alt="Logo Chama SOS PE" 
             className="card-logo" 
           />
